@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # La Cafètrix Coffee Shop Dashboard
 
 A refined Streamlit dashboard for the existing Coffee Shop Sales dataset. The project preserves the original brown/cream La Cafètrix visual identity while improving filtering, interactive data visualization, data storytelling, and detail views.
@@ -32,3 +33,6 @@ This is a Streamlit/Python project, so `npm run dev` and `npm run build` do not 
 - Currency display corrected to `$` to match the source workbook formatting
 
 The source Excel dataset remains unchanged.
+=======
+# la-cafetrix-coffee-shop-dashboard
+>>>>>>> 9f2bb343a389f8533df3b8c5ab78022667568dae
