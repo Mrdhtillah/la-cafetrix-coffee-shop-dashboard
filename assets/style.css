@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600&display=swap');
+
+.stApp {
+    background: #F8F5F2;
+    color: #3A2B24;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #3A2B24;
+    letter-spacing: -0.02em;
+}
+
+[data-testid="stMetric"] {
+    background: #FFFDFC;
+    border: 1px solid #E6D8CA;
+    border-radius: 16px;
+    padding: 16px 18px;
+    box-shadow: 0 5px 18px rgba(74, 51, 38, 0.06);
+    min-height: 118px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #77665B;
+    font-weight: 500;
+}
+
+[data-testid="stMetricValue"] {
+    color: #4A3326;
+    font-weight: 700;
+}
+
+[data-testid="stPlotlyChart"] {
+    background: #FFFDFC;
+    border: 1px solid #E6D8CA;
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 0 5px 18px rgba(74, 51, 38, 0.045);
+}
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #E6D8CA;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #4A3326 0%, #2A1D18 100%) !important;
+    border-right: 2px solid #6F4E37;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #F6EDE4;
+}
+
+section[data-testid="stSidebar"] [data-baseweb="select"] > div,
+section[data-testid="stSidebar"] [data-baseweb="input"] > div,
+section[data-testid="stSidebar"] input {
+    color: #3A2B24 !important;
+}
+
+[data-testid="stSidebarNav"] > div:first-child {
+    display: none;
+}
+
+[data-testid="stSidebarNav"] {
+    padding-top: 10px;
+}
+
+[data-testid="stSidebarNav"] a {
+    color: #E6CCB2 !important;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    padding: 11px 14px;
+    transition: .2s;
+}
+
+[data-testid="stSidebarNav"] a:hover {
+    background: #6F4E37 !important;
+    color: white !important;
+}
+
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+    background: #A67C52 !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+.logo-small {
+    font-family: 'Great Vibes', cursive;
+    font-size: 34px;
+    color: #E6CCB2;
+    text-align: center;
+    margin-bottom: -12px;
+}
+
+.logo-big {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 42px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.subtitle {
+    color: #D9C8B6;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+
+.footer {
+    color: #C8B8A8;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.insight-box {
+    background: #F1E7DC;
+    border: 1px solid #DEC9B5;
+    border-left: 5px solid #A67C52;
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin: 8px 0 16px 0;
+}
+
+.insight-title {
+    font-weight: 700;
+    color: #4A3326;
+    margin-bottom: 8px;
+}
+
+.insight-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.insight-box li {
+    margin: 7px 0;
+    color: #4B3A31;
+}
+
+.empty-state {
+    text-align: center;
+    background: #FFFDFC;
+    border: 1px dashed #CDB8A5;
+    border-radius: 16px;
+    padding: 44px 20px;
+    color: #77665B;
+}
+
+.empty-state .empty-icon {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.stButton > button, .stDownloadButton > button {
+    border-radius: 10px;
+    border-color: #A67C52;
+}
+
+@media (max-width: 768px) {
+    [data-testid="stMetric"] {
+        min-height: auto;
+    }
+    [data-testid="stPlotlyChart"] {
+        padding: 2px;
+    }
+}
